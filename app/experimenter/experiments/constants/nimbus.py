@@ -159,7 +159,7 @@ TARGETING_STICKY = "experiment.slug in activeExperiments"
 
 TARGETING_HAS_PIN = "!doesAppNeedPin"
 
-TARGETING_NEED_DEFAULT = "!defaultBrowser"
+TARGETING_NEED_DEFAULT = "!isDefaultBrowser"
 
 TARGETING_NO_TARGETING = NimbusTargetingConfig(
     name="No Targeting",
